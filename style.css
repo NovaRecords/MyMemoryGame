@@ -17,8 +17,8 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  padding: 15px;
+  gap: 5px;
+  /* padding: 15px; */
 }
 
 .card {
@@ -37,8 +37,8 @@ body {
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
+  max-height: 18vh;
+  width: auto;
   object-fit: contain;
   padding: 5px;
 }

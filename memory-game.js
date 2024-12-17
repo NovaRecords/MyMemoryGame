@@ -80,7 +80,7 @@ function checkmatch() {
     if (matchedPairs === selectedImages.length) {
       setTimeout(() => {
         // Start confetti effect
-        const duration = 3000;
+        const duration = 10000;
         const animationEnd = Date.now() + duration;
         const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
